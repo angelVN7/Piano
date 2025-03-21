@@ -1,0 +1,321 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Teclas blancas C2 a C4 -->
+    <ImageButton
+        android:id="@+id/keyC2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla C2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/keyD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla D2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyC2"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/keyE2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla E2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyD2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla F2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyE2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla G2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyF2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla A2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyG2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla B2"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyA2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyC3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla C3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyB2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla D3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyC3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla E3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyD3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyF3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla F3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyE3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyG3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla G3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyF3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyA3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla A3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyG3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla B3"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyA3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <ImageButton
+        android:id="@+id/keyC4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla C4"
+        android:src="@drawable/white_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyB3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.07"
+        app:layout_constraintHeight_default="wrap" />
+
+    <!-- Teclas negras (C#2, D#2, F#2, G#2, A#2, C#3, D#3, F#3, G#3, A#3) -->
+    <ImageButton
+        android:id="@+id/keyCSharp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla C#2"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyC2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyDSharp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla D#2"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyD2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyFSharp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla F#2"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyF2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyGSharp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla G#2"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyG2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyASharp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla A#2"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyA2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyCSharp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla C#3"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyC3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyDSharp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla D#3"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyD3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyFSharp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla F#3"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyF3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyGSharp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla G#3"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyG3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/keyASharp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Tecla A#3"
+        android:src="@drawable/black_key_normal"
+        app:layout_constraintStart_toEndOf="@id/keyA3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
